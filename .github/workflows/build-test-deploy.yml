@@ -20,7 +20,7 @@ jobs:
       - name: BTD build
         uses: actions/checkout@v3
       - name: use node.js
-        uses: actions/setup-node@js
+        uses: actions/setup-node@v3
         with:
           node-version: '18.x'
       - run: npm install
