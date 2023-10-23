@@ -2,7 +2,7 @@ name: build-test-deoloy
 on: push
 jobs:
   build:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: BTD build
         uses: actions/checkout@v3
